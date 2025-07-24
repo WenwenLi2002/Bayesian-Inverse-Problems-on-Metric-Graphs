@@ -111,9 +111,9 @@ The script outputs the following:
 
 ### Example Plots
 
-- **Posterior Mean**: The posterior mean of the unknown parameter \( \mu \), estimated from MCMC samples.
-- **MAP Estimate**: The maximum a posteriori estimate of \( \mu \), computed using the mode of the posterior distribution.
-- **Pressure Field**: The solutions \( p \) for true \( \mu_0 \), posterior mean \( \mu \), and smoothed MAP \( \mu \).
+- **Posterior Mean**: The posterior mean of the unknown parameter \( u \), estimated from MCMC samples.
+- **MAP Estimate**: The maximum a posteriori estimate of \( u \), computed using the mode of the posterior distribution.
+- **Pressure Field**: The solutions \( p \) for true \( u_0 \), posterior mean \( u \), and smoothed MAP \( u \).
 
 ---
 
