@@ -123,6 +123,16 @@ The reference data for this project can be found in the following [OneDrive link
 
 ---
 
+## Updates (see folder `complement_reference_code`)
+
+We have updated the reference code to include **outer-loop drivers** (multi-trial runs) to demonstrate the robustness of the inference-and-reconstruction pipeline across different problem settings; see **`Final_standard_with_outloop`** and **`Final_fractional_with_outloop`**.  
+We also consider an additional **oscillatory forcing term** as a further robustness check; see **`Final_standard_oscillary_rhs`**.
+
+The corresponding reference outputs are packaged as **`Standard_data.zip`** and **`Fractional_data.zip`**. Each archive contains saved per-trial bundles (e.g., `trial_bundle.rds`) with ground truth fields, observations, posterior summaries, and diagnostics, so the reported tables and box plots can be reproduced directly from these bundles.  
+In addition, the **well-posedness / data-perturbation analysis** (together with its saved trial bundles) can be found in **`Final_standard_wp`** and **`Final_fractional_wp`**.
+
+---
+
 ## License
 
 Released under the **MIT License** – see [`LICENSE`](LICENSE) for details.
